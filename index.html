@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Security Solutions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4ca1af);
+            color: white;
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        section {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #4ca1af;
+        }
+        
+        ul {
+            margin-left: 2rem;
+        }
+        
+        li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 1.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card h3 {
+            color: #4ca1af;
+            margin-bottom: 1rem;
+        }
+        
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #4ca1af;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        
+        .btn:hover {
+            background: #3a8a98;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cloud Security Solutions</h1>
+        <p>Enterprise-grade security for your cloud infrastructure</p>
+    </header>
+
+    <div class="container">
+        <section id="aws-cicd">
+            <h2>AWS Cloud Hosting with CI/CD Pipeline</h2>
+            <p>We leverage AWS Cloud infrastructure with Continuous Integration and Continuous Deployment (CI/CD) pipeline to deliver reliable and scalable solutions.</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Automated Deployments</h3>
+                    <p>Our CI/CD pipeline automates code testing, building, and deployment, reducing human error and ensuring consistent releases.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Scalable Infrastructure</h3>
+                    <p>AWS provides elastic resources that automatically scale with your application's needs, ensuring optimal performance during peak loads.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Cost Optimization</h3>
+                    <p>Pay only for what you use with AWS's flexible pricing model, optimizing your cloud spending and ROI.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="antimalware">
+            <h2>Antimalware for Virtual Machines</h2>
+            <p>Our comprehensive antimalware solution protects your virtual machines against the latest threats and vulnerabilities.</p>
+            
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Real-time Protection</h3>
+                    <p>Continuous monitoring and protection against malware, ransomware, and advanced persistent threats.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>VM-Optimized Security</h3>
+                    <p>Security solutions designed specifically for virtual environments, with minimal performance impact.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Centralized Management</h3>
+                    <p>Manage security policies across all your virtual machines from a single dashboard.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Compliance Ready</h3>
+                    <p>Meet regulatory requirements with comprehensive security reporting and audit trails.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="benefits">
+            <h2>Why Choose Our Solution?</h2>
+            <ul>
+                <li>Seamless integration with existing AWS infrastructure</li>
+                <li>Reduced operational overhead through automation</li>
+                <li>Enhanced security posture against evolving threats</li>
+                <li>24/7 monitoring and threat intelligence</li>
+                <li>Dedicated support team for immediate assistance</li>
+            </ul>
+            
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#contact" class="btn">Get Started Today</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Sreeram. All rights reserved.</p>
+        <p>Secure cloud solutions powered by AWS with industry-leading antimalware protection.</p>
+    </footer>
+</body>
+</html>
